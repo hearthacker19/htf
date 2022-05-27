@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:$PORT project_name:htf
+web: gunicorn htf.wsgi --log-file -
